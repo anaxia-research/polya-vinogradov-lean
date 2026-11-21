@@ -1,0 +1,3 @@
+﻿@PolyaVinogradov.polya_vinogradov : ∀ {N : ℕ} [NeZero N] {χ : DirichletCharacter ℂ N},
+  χ.IsPrimitive → 1 < N → ∀ (M L : ℕ), ‖∑ i ∈ Finset.range L, χ ↑(M + i)‖ ≤ √↑N * (1 + Real.log ↑N)
+'PolyaVinogradov.polya_vinogradov' depends on axioms: [propext, Classical.choice, Quot.sound]
